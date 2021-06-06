@@ -1,0 +1,40 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+html,
+body .app {
+  color: #333333;
+  font-family: Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif;
+  background-color: $background-color;
+}
+
+html,
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+.app {
+  height: 100%;
+  font-family: Arial, Helvetica, 'STHeiti STXihei', 'Microsoft YaHei', Tohoma, sans-serif, PingFangSC-Medium,
+    PingFang SC;
+  font-size: 20px;
+}
+#app {
+  height: 100%;
+}
+ul li {
+  list-style: none;
+}
+input {
+  outline: none;
+}

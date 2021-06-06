@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\TAB\AppData\Local\Microsoft\WindowsApps;C:\Users\TAB\AppData\Roaming\npm;C:\Users\TAB\AppData\Local\gitkraken\bin;C:\Users\TAB\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\TAB\AppData\Local\Yarn\Cache\v6\npm-eslint-6.8.0-62262d6729739f9275723824302fb227c8c93ffb-integrity\node_modules\eslint\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+      "name": "vue-h5-template",
+      "version": "2.1.0",
+      "description": "A vue h5 template with Vant UI",
+      "author": "Sunnie <sunniejs@163.com>",
+      "private": true,
+      "scripts": {
+          "serve": "vue-cli-service serve --open",
+          "build": "vue-cli-service build",
+          "stage": "vue-cli-service build --mode staging",
+          "lint": "vue-cli-service lint"
+      },
+      "dependencies": {
+          "@binance-chain/bsc-connector": "^1.0.0",
+          "@binance-chain/javascript-sdk": "^4.1.1",
+          "@ethersproject/contracts": "^5.0.12",
+          "@ethersproject/networks": "^5.0.9",
+          "@ethersproject/providers": "^5.0.24",
+          "@ethersproject/solidity": "^5.0.10",
+          "@ethersproject/experimental": "^5.0.1",
+          "@pancakeswap-libs/sdk": "1.0.1",
+          "@uniswap/sdk": "^3.0.3",
+          "aos": "^2.3.4",
+          "axios": "^0.19.2",
+          "bignumber.js": "^9.0.0",
+          "clipboard": "^2.0.6",
+          "core-js": "^3.6.4",
+          "element-ui": "^2.15.0",
+          "express": "^4.17.1",
+          "lib-flexible": "^0.3.2",
+          "lodash": "^4.17.15",
+          "moment": "^2.29.1",
+          "regenerator-runtime": "^0.13.5",
+          "vant": "^2.10.2",
+          "vue": "^2.6.11",
+          "vue-aos": "^1.1.0",
+          "vue-router": "^3.2.0",
+          "vuex": "^3.4.0",
+          "web3-eth-accounts": "^1.3.4"
+      },
+      "devDependencies": {
+          "@vue/cli-plugin-babel": "~4.5.0",
+          "@vue/cli-plugin-eslint": "~4.5.0",
+          "@vue/cli-plugin-router": "~4.5.0",
+          "@vue/cli-plugin-vuex": "~4.5.0",
+          "@vue/cli-service": "~4.5.0",
+          "babel-eslint": "^10.1.0",
+          "babel-plugin-import": "^1.13.0",
+          "babel-plugin-transform-remove-console": "^6.9.4",
+          "eslint": "^6.7.2",
+          "eslint-plugin-vue": "^6.2.2",
+          "node-sass": "^4.14.1",
+          "postcss-pxtorem": "^5.1.1",
+          "sass-loader": "^8.0.2",
+          "script-ext-html-webpack-plugin": "^2.1.4",
+          "vue-i18n": "^8.22.4",
+          "vue-template-compiler": "^2.6.11",
+          "webpack-bundle-analyzer": "^3.8.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
